@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.background{
+    width: 1400px;
+    height: 2000px;
+    background-color: azure;
+    margin: 30px auto;
+}
+
+.header{
+    font-size: 34px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pricingTable{
+    width: 100%;
+
+}
+.tableCards{
+    width: 200px;
+    height: max-content;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    margin: 60px;
+   
+}
+ 
+.tableCards2{
+    width: 200px;
+    height: max-content;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px #888888, -5px -5px 10px #888888;
+    margin: 60px;
+}
+.basic{
+    margin-bottom: 30px;
+}
+.iconB{
+    color: red;
+    font-size: 30px;
+}
+.iconP{
+    color:green;
+    font-size: 30px;
+}
+.iconG{
+    color: rgb(74, 45, 170);
+    font-size: 30px;
+}
+
+.basicInfo{
+    margin: 15px;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.menuItems{
+    margin-bottom: 15px;
+}
+
+.free{
+    padding: 15px;
+    width: 100px;
+    border: none;
+    background-color: rgb(225, 25, 165);
+    color: white;
+    border-radius: 15px;
+}
+
+.purchase{
+    padding: 15px;
+    width: 100px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+
+}
+.buttonG{
+    padding: 15px;
+    width: 100px;
+    border: none;
+    background-color: rgb(74, 45, 170);;
+    color: white;
+    border-radius: 15px;
+}
