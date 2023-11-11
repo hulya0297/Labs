@@ -6,6 +6,7 @@
 
 @import "./mixins.scss";
 @import "./variable.scss";
+@import "./meadia_responsive.scss";
 
     
 
@@ -38,11 +39,11 @@ header{
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
             }
 
-            .navbar{
+            .header_navbar{
                 width: 500px;
                 height: 50px;
 
-                .navbar_menu{
+                .header_navbar_menu{
                     width: 500px;
                     height: 50px;
                     @include d-flex( flex, space-around, center, center, _, _);
@@ -73,3 +74,21 @@ header{
         }
     }
 }
+
+.header_menu_icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: none;
+    color: $--color1;
+    text-align: center;
+    padding-top:5px ;
+    background-color: $--background_color4;
+    
+}
+
+
+
+
+

@@ -1,0 +1,16 @@
+// Header responsive 
+
+
+@media screen and (max-width:992px) {
+    .header_navbar{
+        display: none;
+    }
+    .header_btn{
+        display: none;
+    }
+
+    .header_menu_icon{
+        display: block;
+    }
+    
+}
